@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = C:\Users\haouc\Desktop\HEI4\Programmation_embarquee\TP2\hei-2018-2019-lab-sens-it-haouch-ponchet-de-langlade\sensit-sdk-v2.0.0\sdk\lib
+LIB_PATH = C:/Users/haouc/Desktop/HEI4/Programmation_embarquee/TP2/hei-2018-2019-lab-sens-it-haouch-ponchet/sensit-sdk-v2.0.0/sdk/lib
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = C:\Users\haouc\Desktop\HEI4\Programmation_embarquee\TP2\hei-2018-2019-lab-sens-it-haouch-ponchet-de-langlade\sensit-sdk-v2.0.0\sdk\bin
-OBJ_PATH = C:\Users\haouc\Desktop\HEI4\Programmation_embarquee\TP2\hei-2018-2019-lab-sens-it-haouch-ponchet-de-langlade\sensit-sdk-v2.0.0\sdk\obj
+BIN_PATH = C:/Users/haouc/Desktop/HEI4/Programmation_embarquee/TP2/hei-2018-2019-lab-sens-it-haouch-ponchet/sensit-sdk-v2.0.0/sdk/bin
+OBJ_PATH = C:/Users/haouc/Desktop/HEI4/Programmation_embarquee/TP2/hei-2018-2019-lab-sens-it-haouch-ponchet/sensit-sdk-v2.0.0/sdk/obj
 
 
 # ------------
@@ -30,9 +30,9 @@ SIZE_OUTPUT = $(OUTPUT_NAME).siz
 # ---------
 # TOOLCHAIN
 # ---------
-CC = C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\bin\arm-none-eabi-gcc
-BIN_TOOL  = C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\bin\arm-none-eabi-objcopy
-SIZE_TOOL = C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\bin\arm-none-eabi-size
+CC = arm-none-eabi-gcc
+BIN_TOOL  = arm-none-eabi-objcopy
+SIZE_TOOL = arm-none-eabi-size
 
 
 # -------------------
